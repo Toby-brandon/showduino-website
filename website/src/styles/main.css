@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --glass: rgba(255,255,255,0.03); }
+
+/* small glitch accent animation */
+@keyframes glitch-x { 0% { transform: translateX(0) } 50% { transform: translateX(2px) } 100% { transform: translateX(0) } }
+.glitch-acc { animation: glitch-x 2.5s infinite ease-in-out; }
