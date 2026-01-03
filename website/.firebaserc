@@ -1,1 +1,5 @@
-{ "projects": { "default": "showduino-project" } }
+{
+  "projects": {
+    "default": "hauntsync-b7d98"
+  }
+}
